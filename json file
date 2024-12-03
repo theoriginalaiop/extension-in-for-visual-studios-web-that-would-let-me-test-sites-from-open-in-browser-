@@ -1,0 +1,36 @@
+{
+  "name": "open-in-browser",
+  "displayName": "Open in Browser",
+  "description": "Open websites in browser directly from VS Code",
+  "version": "0.0.1",
+  "publisher": "your-username",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "main": "./out/extension",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint . --ext ts"
+  },
+  "dependencies": {
+    "open": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "vscode": "^1.1.37",
+    "eslint": "^7.32.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.openInBrowser",
+        "title": "Open URL in Browser"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:extension.openInBrowser"
+  ]
+}
