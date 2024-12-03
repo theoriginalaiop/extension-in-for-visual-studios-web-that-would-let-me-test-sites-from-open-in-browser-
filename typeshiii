@@ -1,0 +1,4 @@
+const config = vscode.workspace.getConfiguration('webTest');
+const preferredBrowser = config.get<string>('browser') || 'default';
+
+await open(url, { app: { name: preferredBrowser === 'default' ? undefined : preferredBrowser } });
