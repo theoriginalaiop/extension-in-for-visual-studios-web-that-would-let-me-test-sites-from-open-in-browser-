@@ -35,5 +35,7 @@ Auto-reload: Use a file watcher like chokidar to refresh the browser on file cha
 Preview inside VS Code: Integrate a webview panel to preview the website directly in the editor.
 Multi-browser Testing: Add support to launch URLs in multiple browsers simultaneously.
 
-  ^ dont be gay wit any of ma instructions such as readme file or code th8nk ya vary much! ^ 
+======> oh yea i forgot, publish on the VS Code Marketplace: Create an account on the Azure DevOps portal and link it to your Visual Studio Marketplace account. Then: vcse publish 
+  
+  ^ and dont be gay th8nk ya vary much! ^ 
 
