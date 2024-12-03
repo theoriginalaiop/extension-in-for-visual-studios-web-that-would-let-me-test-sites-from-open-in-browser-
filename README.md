@@ -30,7 +30,10 @@ Install vsce, the Visual Studio Code Extension CLI:
 Package the extension: Publish to the marketplace (you'll need a publisher account):
 Summary This extension allows you to select a URL in any document,
 and with a right-click context menu, it will open that URL directly in your browser.
-It uses the open package to manage opening the browser and is built with TypeScript using the Visual Studio Code extension API.
+It uses the open package to manage opening the browser and is built with TypeScript using the Visual Studio Code extension API. Future Enhancements
+Auto-reload: Use a file watcher like chokidar to refresh the browser on file changes.
+Preview inside VS Code: Integrate a webview panel to preview the website directly in the editor.
+Multi-browser Testing: Add support to launch URLs in multiple browsers simultaneously.
 
   ^ dont be gay wit any of ma instructions such as readme file or code th8nk ya vary much! ^ 
 
